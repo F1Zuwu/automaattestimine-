@@ -15,7 +15,7 @@ time.sleep(1)
 #valib kõik checkboxid
 checkboxes = driver.find_elements(By.CSS_SELECTOR, "input[type='checkbox']")
 for checkbox in checkboxes:
-    if not checkbox.is_selected():
+    if not checkbox.is_selected(): # kontroll kas on juba checked v mitte.
         checkbox.click()
 
 time.sleep(1)
