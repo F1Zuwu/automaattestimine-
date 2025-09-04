@@ -1,0 +1,6 @@
+PS C:\Users\raimo\Desktop\bs\automaattestimine-> python .\ulesanded\4.py
+
+DevTools listening on ws://127.0.0.1:61439/devtools/browser/4e1c5dff-e47d-497a-a766-cbdc55736975
+Õnnestus
+Vajuta Enter, et brauser sulgeda...[5676:9904:0904/112817.784:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Created TensorFlow Lite XNNPACK delegate for CPU.
