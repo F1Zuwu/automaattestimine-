@@ -3,9 +3,9 @@ from selenium.webdriver.common.by import By
 import time
 
 driver = webdriver.Chrome()
-
 driver.get("https://the-internet.herokuapp.com/login")
 
+# field'ide täitmine
 username_field = driver.find_element(By.ID, "username")
 username_field.send_keys("tomsmith")
 
@@ -17,6 +17,7 @@ login_button.click()
 
 time.sleep(2)
 
+# kontrollimine kas õnnestus
 success_message = driver.find_element(By.ID, "flash").text
 
 if "You logged into a secure area!" in success_message:

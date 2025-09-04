@@ -3,9 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 driver = webdriver.Chrome()
-
 driver.get("https://quotes.toscrape.com")
-
 
 quotes = driver.find_elements(By.CLASS_NAME, "quote")
 
